@@ -1,19 +1,16 @@
 package com.github.ftfetter.java.spring4.calculator;
 
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Component;
-
 public class Operations {
 
-    public double sum(x, y){
+    public double sum(double x, double y){
         return x+y;
     }
 
-    public double sub(x, y){
+    public double sub(double x, double y){
         return x-y;
     }
 
-    public double multiply(x, y){
+    public double multiply(double x, double y){
         return x*y;
     }
 
@@ -25,7 +22,4 @@ public class Operations {
         return Math.pow(x,y);
     }
 
-    public void operations(String result){
-
-    }
 }
